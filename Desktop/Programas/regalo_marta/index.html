@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>QR y Calendario</title>
+  <link rel="stylesheet" href="diseño.css">
+</head>
+<body>
+
+  <input type="text" id="qrInput" placeholder="Texto para el QR">
+  <button onclick="generarQR()">Generar QR</button>
+  <br><br>
+  <canvas id="qr"></canvas>
+
+  <h2>Calendario</h2>
+  <label for="mes">Mes:</label>
+  <select id="mes"></select>
+
+  <label for="anio">Año:</label>
+  <select id="anio"></select>
+
+  <button onclick="generarCalendario()">Mostrar Calendario</button>
+
+  <div id="calendar"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/qrious@4.0.2/dist/qrious.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
