@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  #calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  #calendar div {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .header {
+    font-weight: bold;
+    background-color: #eee;
+  }
+  
